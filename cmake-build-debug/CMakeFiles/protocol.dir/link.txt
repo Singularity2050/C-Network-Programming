@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libprotocol.a CMakeFiles/protocol.dir/Ethernet/ethernet.c.o CMakeFiles/protocol.dir/ARP/arp.c.o CMakeFiles/protocol.dir/IP/ip.c.o CMakeFiles/protocol.dir/TCP/tcp.c.o CMakeFiles/protocol.dir/UDP/udp.c.o CMakeFiles/protocol.dir/ICMP/icmp.c.o CMakeFiles/protocol.dir/sniffing.c.o CMakeFiles/protocol.dir/ARPLIB/arplib.c.o CMakeFiles/protocol.dir/arplibTest.c.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libprotocol.a
