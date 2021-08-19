@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #define __linux__
-#include "./ARPLIB/arplib.h"
+#include "arplib.h"
 
 
 int main(void)
@@ -18,8 +18,8 @@ int main(void)
     strmac_to_buffer("11:22:33:44:55:66",smac);
     strmac_to_buffer("aa:bb:cc:dd:ee:ff",dmac);
 
-    sip = 0x11223344;
-    tip = 0x55667788;
+    sip = 0x11223344; //ip
+    tip = 0x55667788;//ip
 
     make_ether_header(
             &(arp_packet.ether_header),dmac,smac,ETHERTYPE_ARP

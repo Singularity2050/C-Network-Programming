@@ -90,6 +90,15 @@
 		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/ARPLIB/arplib.h">
 			<Option target="protocol"/>
 		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/ARPLIB/arplibTest.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/ARPspoof+sniff/arpspoof.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/ARPspoof+sniff/sniffing.c">
+			<Option target="protocol"/>
+		</Unit>
 		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/Ethernet/ethernet.c">
 			<Option target="protocol"/>
 		</Unit>
@@ -102,10 +111,61 @@
 		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/ICMP/icmp.h">
 			<Option target="protocol"/>
 		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/ICMPLIB/icmplib.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/ICMPLIB/icmplib.h">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/ICMPLIB/icmplibTest.c">
+			<Option target="protocol"/>
+		</Unit>
 		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/IP/ip.c">
 			<Option target="protocol"/>
 		</Unit>
 		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/IP/ip.h">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/IPaddressToDecimal/changeIPAddress.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/NetworkScan/arp_network_scan.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/NetworkScan/icmp_network_scan.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/Ping/ping.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/RawSocket/Arp_network_scan.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/RawSocket/TCP_Packet_Monitering_raw.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/RawSocket/TCP_Session_Hijacking_raw.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/RawSocket/arpspoof_rawSocket.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/RawSocket/icmp_network_scan_raw.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/RawSocket/ping_raw.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/RawSocket/synflooding_raw.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/RawSocket/tcp_half_open_port_scan_raw.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/RawSocket/traceRoutingRoute_ICMP.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/SynFloodingAttack/synfloodingAttack.c">
 			<Option target="protocol"/>
 		</Unit>
 		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/TCP/tcp.c">
@@ -114,16 +174,40 @@
 		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/TCP/tcp.h">
 			<Option target="protocol"/>
 		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/TCPLIB/tcplib.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/TCPLIB/tcplib.h">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/TCPLIB/tcplibTest.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/TCP_Half-Open_Port_Scan/tcp_half_open_port_scan.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/TCP_Session_Hijacking/TCP_Packet_Monitering.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/TCP_Session_Hijacking/TCP_Session_Hijacking.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/TCP_port_Scan/tcp_connect.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/TCP_port_Scan/tcp_port_scan.c">
+			<Option target="protocol"/>
+		</Unit>
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/TraceRoutingRoute/traceRoutingRoute_ICMP.c">
+			<Option target="protocol"/>
+		</Unit>
 		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/UDP/udp.c">
 			<Option target="protocol"/>
 		</Unit>
 		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/UDP/udp.h">
 			<Option target="protocol"/>
 		</Unit>
-		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/arplibTest.c">
-			<Option target="protocol"/>
-		</Unit>
-		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/sniffing.c">
+		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/checkSum.c">
 			<Option target="protocol"/>
 		</Unit>
 		<Unit filename="/Users/sijescomputer/CLionProjects/protocol/CMakeLists.txt">

@@ -154,18 +154,18 @@ CMakeFiles/protocol.dir/ICMP/icmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/ICMP/icmp.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/ICMP/icmp.c -o CMakeFiles/protocol.dir/ICMP/icmp.c.s
 
-CMakeFiles/protocol.dir/sniffing.c.o: CMakeFiles/protocol.dir/flags.make
-CMakeFiles/protocol.dir/sniffing.c.o: ../sniffing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/protocol.dir/sniffing.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/sniffing.c.o -c /Users/sijescomputer/CLionProjects/protocol/sniffing.c
+CMakeFiles/protocol.dir/ARPspoof+sniff/sniffing.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/ARPspoof+sniff/sniffing.c.o: ../ARPspoof+sniff/sniffing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/protocol.dir/ARPspoof+sniff/sniffing.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/ARPspoof+sniff/sniffing.c.o -c /Users/sijescomputer/CLionProjects/protocol/ARPspoof+sniff/sniffing.c
 
-CMakeFiles/protocol.dir/sniffing.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/sniffing.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/sniffing.c > CMakeFiles/protocol.dir/sniffing.c.i
+CMakeFiles/protocol.dir/ARPspoof+sniff/sniffing.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/ARPspoof+sniff/sniffing.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/ARPspoof+sniff/sniffing.c > CMakeFiles/protocol.dir/ARPspoof+sniff/sniffing.c.i
 
-CMakeFiles/protocol.dir/sniffing.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/sniffing.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/sniffing.c -o CMakeFiles/protocol.dir/sniffing.c.s
+CMakeFiles/protocol.dir/ARPspoof+sniff/sniffing.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/ARPspoof+sniff/sniffing.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/ARPspoof+sniff/sniffing.c -o CMakeFiles/protocol.dir/ARPspoof+sniff/sniffing.c.s
 
 CMakeFiles/protocol.dir/ARPLIB/arplib.c.o: CMakeFiles/protocol.dir/flags.make
 CMakeFiles/protocol.dir/ARPLIB/arplib.c.o: ../ARPLIB/arplib.c
@@ -180,18 +180,356 @@ CMakeFiles/protocol.dir/ARPLIB/arplib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/ARPLIB/arplib.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/ARPLIB/arplib.c -o CMakeFiles/protocol.dir/ARPLIB/arplib.c.s
 
-CMakeFiles/protocol.dir/arplibTest.c.o: CMakeFiles/protocol.dir/flags.make
-CMakeFiles/protocol.dir/arplibTest.c.o: ../arplibTest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/protocol.dir/arplibTest.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/arplibTest.c.o -c /Users/sijescomputer/CLionProjects/protocol/arplibTest.c
+CMakeFiles/protocol.dir/ARPLIB/arplibTest.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/ARPLIB/arplibTest.c.o: ../ARPLIB/arplibTest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/protocol.dir/ARPLIB/arplibTest.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/ARPLIB/arplibTest.c.o -c /Users/sijescomputer/CLionProjects/protocol/ARPLIB/arplibTest.c
 
-CMakeFiles/protocol.dir/arplibTest.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/arplibTest.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/arplibTest.c > CMakeFiles/protocol.dir/arplibTest.c.i
+CMakeFiles/protocol.dir/ARPLIB/arplibTest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/ARPLIB/arplibTest.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/ARPLIB/arplibTest.c > CMakeFiles/protocol.dir/ARPLIB/arplibTest.c.i
 
-CMakeFiles/protocol.dir/arplibTest.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/arplibTest.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/arplibTest.c -o CMakeFiles/protocol.dir/arplibTest.c.s
+CMakeFiles/protocol.dir/ARPLIB/arplibTest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/ARPLIB/arplibTest.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/ARPLIB/arplibTest.c -o CMakeFiles/protocol.dir/ARPLIB/arplibTest.c.s
+
+CMakeFiles/protocol.dir/RawSocket/arpspoof_rawSocket.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/RawSocket/arpspoof_rawSocket.c.o: ../RawSocket/arpspoof_rawSocket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/protocol.dir/RawSocket/arpspoof_rawSocket.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/RawSocket/arpspoof_rawSocket.c.o -c /Users/sijescomputer/CLionProjects/protocol/RawSocket/arpspoof_rawSocket.c
+
+CMakeFiles/protocol.dir/RawSocket/arpspoof_rawSocket.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/RawSocket/arpspoof_rawSocket.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/RawSocket/arpspoof_rawSocket.c > CMakeFiles/protocol.dir/RawSocket/arpspoof_rawSocket.c.i
+
+CMakeFiles/protocol.dir/RawSocket/arpspoof_rawSocket.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/RawSocket/arpspoof_rawSocket.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/RawSocket/arpspoof_rawSocket.c -o CMakeFiles/protocol.dir/RawSocket/arpspoof_rawSocket.c.s
+
+CMakeFiles/protocol.dir/ARPspoof+sniff/arpspoof.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/ARPspoof+sniff/arpspoof.c.o: ../ARPspoof+sniff/arpspoof.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/protocol.dir/ARPspoof+sniff/arpspoof.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/ARPspoof+sniff/arpspoof.c.o -c /Users/sijescomputer/CLionProjects/protocol/ARPspoof+sniff/arpspoof.c
+
+CMakeFiles/protocol.dir/ARPspoof+sniff/arpspoof.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/ARPspoof+sniff/arpspoof.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/ARPspoof+sniff/arpspoof.c > CMakeFiles/protocol.dir/ARPspoof+sniff/arpspoof.c.i
+
+CMakeFiles/protocol.dir/ARPspoof+sniff/arpspoof.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/ARPspoof+sniff/arpspoof.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/ARPspoof+sniff/arpspoof.c -o CMakeFiles/protocol.dir/ARPspoof+sniff/arpspoof.c.s
+
+CMakeFiles/protocol.dir/IPaddressToDecimal/changeIPAddress.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/IPaddressToDecimal/changeIPAddress.c.o: ../IPaddressToDecimal/changeIPAddress.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/protocol.dir/IPaddressToDecimal/changeIPAddress.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/IPaddressToDecimal/changeIPAddress.c.o -c /Users/sijescomputer/CLionProjects/protocol/IPaddressToDecimal/changeIPAddress.c
+
+CMakeFiles/protocol.dir/IPaddressToDecimal/changeIPAddress.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/IPaddressToDecimal/changeIPAddress.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/IPaddressToDecimal/changeIPAddress.c > CMakeFiles/protocol.dir/IPaddressToDecimal/changeIPAddress.c.i
+
+CMakeFiles/protocol.dir/IPaddressToDecimal/changeIPAddress.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/IPaddressToDecimal/changeIPAddress.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/IPaddressToDecimal/changeIPAddress.c -o CMakeFiles/protocol.dir/IPaddressToDecimal/changeIPAddress.c.s
+
+CMakeFiles/protocol.dir/RawSocket/Arp_network_scan.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/RawSocket/Arp_network_scan.c.o: ../RawSocket/Arp_network_scan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/protocol.dir/RawSocket/Arp_network_scan.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/RawSocket/Arp_network_scan.c.o -c /Users/sijescomputer/CLionProjects/protocol/RawSocket/Arp_network_scan.c
+
+CMakeFiles/protocol.dir/RawSocket/Arp_network_scan.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/RawSocket/Arp_network_scan.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/RawSocket/Arp_network_scan.c > CMakeFiles/protocol.dir/RawSocket/Arp_network_scan.c.i
+
+CMakeFiles/protocol.dir/RawSocket/Arp_network_scan.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/RawSocket/Arp_network_scan.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/RawSocket/Arp_network_scan.c -o CMakeFiles/protocol.dir/RawSocket/Arp_network_scan.c.s
+
+CMakeFiles/protocol.dir/NetworkScan/arp_network_scan.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/NetworkScan/arp_network_scan.c.o: ../NetworkScan/arp_network_scan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/protocol.dir/NetworkScan/arp_network_scan.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/NetworkScan/arp_network_scan.c.o -c /Users/sijescomputer/CLionProjects/protocol/NetworkScan/arp_network_scan.c
+
+CMakeFiles/protocol.dir/NetworkScan/arp_network_scan.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/NetworkScan/arp_network_scan.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/NetworkScan/arp_network_scan.c > CMakeFiles/protocol.dir/NetworkScan/arp_network_scan.c.i
+
+CMakeFiles/protocol.dir/NetworkScan/arp_network_scan.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/NetworkScan/arp_network_scan.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/NetworkScan/arp_network_scan.c -o CMakeFiles/protocol.dir/NetworkScan/arp_network_scan.c.s
+
+CMakeFiles/protocol.dir/ICMPLIB/icmplib.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/ICMPLIB/icmplib.c.o: ../ICMPLIB/icmplib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/protocol.dir/ICMPLIB/icmplib.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/ICMPLIB/icmplib.c.o -c /Users/sijescomputer/CLionProjects/protocol/ICMPLIB/icmplib.c
+
+CMakeFiles/protocol.dir/ICMPLIB/icmplib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/ICMPLIB/icmplib.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/ICMPLIB/icmplib.c > CMakeFiles/protocol.dir/ICMPLIB/icmplib.c.i
+
+CMakeFiles/protocol.dir/ICMPLIB/icmplib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/ICMPLIB/icmplib.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/ICMPLIB/icmplib.c -o CMakeFiles/protocol.dir/ICMPLIB/icmplib.c.s
+
+CMakeFiles/protocol.dir/checkSum.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/checkSum.c.o: ../checkSum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/protocol.dir/checkSum.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/checkSum.c.o -c /Users/sijescomputer/CLionProjects/protocol/checkSum.c
+
+CMakeFiles/protocol.dir/checkSum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/checkSum.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/checkSum.c > CMakeFiles/protocol.dir/checkSum.c.i
+
+CMakeFiles/protocol.dir/checkSum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/checkSum.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/checkSum.c -o CMakeFiles/protocol.dir/checkSum.c.s
+
+CMakeFiles/protocol.dir/ICMPLIB/icmplibTest.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/ICMPLIB/icmplibTest.c.o: ../ICMPLIB/icmplibTest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/protocol.dir/ICMPLIB/icmplibTest.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/ICMPLIB/icmplibTest.c.o -c /Users/sijescomputer/CLionProjects/protocol/ICMPLIB/icmplibTest.c
+
+CMakeFiles/protocol.dir/ICMPLIB/icmplibTest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/ICMPLIB/icmplibTest.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/ICMPLIB/icmplibTest.c > CMakeFiles/protocol.dir/ICMPLIB/icmplibTest.c.i
+
+CMakeFiles/protocol.dir/ICMPLIB/icmplibTest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/ICMPLIB/icmplibTest.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/ICMPLIB/icmplibTest.c -o CMakeFiles/protocol.dir/ICMPLIB/icmplibTest.c.s
+
+CMakeFiles/protocol.dir/Ping/ping.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/Ping/ping.c.o: ../Ping/ping.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/protocol.dir/Ping/ping.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/Ping/ping.c.o -c /Users/sijescomputer/CLionProjects/protocol/Ping/ping.c
+
+CMakeFiles/protocol.dir/Ping/ping.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/Ping/ping.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/Ping/ping.c > CMakeFiles/protocol.dir/Ping/ping.c.i
+
+CMakeFiles/protocol.dir/Ping/ping.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/Ping/ping.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/Ping/ping.c -o CMakeFiles/protocol.dir/Ping/ping.c.s
+
+CMakeFiles/protocol.dir/RawSocket/ping_raw.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/RawSocket/ping_raw.c.o: ../RawSocket/ping_raw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/protocol.dir/RawSocket/ping_raw.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/RawSocket/ping_raw.c.o -c /Users/sijescomputer/CLionProjects/protocol/RawSocket/ping_raw.c
+
+CMakeFiles/protocol.dir/RawSocket/ping_raw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/RawSocket/ping_raw.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/RawSocket/ping_raw.c > CMakeFiles/protocol.dir/RawSocket/ping_raw.c.i
+
+CMakeFiles/protocol.dir/RawSocket/ping_raw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/RawSocket/ping_raw.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/RawSocket/ping_raw.c -o CMakeFiles/protocol.dir/RawSocket/ping_raw.c.s
+
+CMakeFiles/protocol.dir/NetworkScan/icmp_network_scan.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/NetworkScan/icmp_network_scan.c.o: ../NetworkScan/icmp_network_scan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/protocol.dir/NetworkScan/icmp_network_scan.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/NetworkScan/icmp_network_scan.c.o -c /Users/sijescomputer/CLionProjects/protocol/NetworkScan/icmp_network_scan.c
+
+CMakeFiles/protocol.dir/NetworkScan/icmp_network_scan.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/NetworkScan/icmp_network_scan.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/NetworkScan/icmp_network_scan.c > CMakeFiles/protocol.dir/NetworkScan/icmp_network_scan.c.i
+
+CMakeFiles/protocol.dir/NetworkScan/icmp_network_scan.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/NetworkScan/icmp_network_scan.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/NetworkScan/icmp_network_scan.c -o CMakeFiles/protocol.dir/NetworkScan/icmp_network_scan.c.s
+
+CMakeFiles/protocol.dir/RawSocket/icmp_network_scan_raw.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/RawSocket/icmp_network_scan_raw.c.o: ../RawSocket/icmp_network_scan_raw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/protocol.dir/RawSocket/icmp_network_scan_raw.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/RawSocket/icmp_network_scan_raw.c.o -c /Users/sijescomputer/CLionProjects/protocol/RawSocket/icmp_network_scan_raw.c
+
+CMakeFiles/protocol.dir/RawSocket/icmp_network_scan_raw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/RawSocket/icmp_network_scan_raw.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/RawSocket/icmp_network_scan_raw.c > CMakeFiles/protocol.dir/RawSocket/icmp_network_scan_raw.c.i
+
+CMakeFiles/protocol.dir/RawSocket/icmp_network_scan_raw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/RawSocket/icmp_network_scan_raw.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/RawSocket/icmp_network_scan_raw.c -o CMakeFiles/protocol.dir/RawSocket/icmp_network_scan_raw.c.s
+
+CMakeFiles/protocol.dir/RawSocket/traceRoutingRoute_ICMP.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/RawSocket/traceRoutingRoute_ICMP.c.o: ../RawSocket/traceRoutingRoute_ICMP.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/protocol.dir/RawSocket/traceRoutingRoute_ICMP.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/RawSocket/traceRoutingRoute_ICMP.c.o -c /Users/sijescomputer/CLionProjects/protocol/RawSocket/traceRoutingRoute_ICMP.c
+
+CMakeFiles/protocol.dir/RawSocket/traceRoutingRoute_ICMP.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/RawSocket/traceRoutingRoute_ICMP.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/RawSocket/traceRoutingRoute_ICMP.c > CMakeFiles/protocol.dir/RawSocket/traceRoutingRoute_ICMP.c.i
+
+CMakeFiles/protocol.dir/RawSocket/traceRoutingRoute_ICMP.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/RawSocket/traceRoutingRoute_ICMP.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/RawSocket/traceRoutingRoute_ICMP.c -o CMakeFiles/protocol.dir/RawSocket/traceRoutingRoute_ICMP.c.s
+
+CMakeFiles/protocol.dir/TraceRoutingRoute/traceRoutingRoute_ICMP.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/TraceRoutingRoute/traceRoutingRoute_ICMP.c.o: ../TraceRoutingRoute/traceRoutingRoute_ICMP.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/protocol.dir/TraceRoutingRoute/traceRoutingRoute_ICMP.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/TraceRoutingRoute/traceRoutingRoute_ICMP.c.o -c /Users/sijescomputer/CLionProjects/protocol/TraceRoutingRoute/traceRoutingRoute_ICMP.c
+
+CMakeFiles/protocol.dir/TraceRoutingRoute/traceRoutingRoute_ICMP.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/TraceRoutingRoute/traceRoutingRoute_ICMP.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/TraceRoutingRoute/traceRoutingRoute_ICMP.c > CMakeFiles/protocol.dir/TraceRoutingRoute/traceRoutingRoute_ICMP.c.i
+
+CMakeFiles/protocol.dir/TraceRoutingRoute/traceRoutingRoute_ICMP.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/TraceRoutingRoute/traceRoutingRoute_ICMP.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/TraceRoutingRoute/traceRoutingRoute_ICMP.c -o CMakeFiles/protocol.dir/TraceRoutingRoute/traceRoutingRoute_ICMP.c.s
+
+CMakeFiles/protocol.dir/TCP_port_Scan/tcp_connect.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/TCP_port_Scan/tcp_connect.c.o: ../TCP_port_Scan/tcp_connect.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/protocol.dir/TCP_port_Scan/tcp_connect.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/TCP_port_Scan/tcp_connect.c.o -c /Users/sijescomputer/CLionProjects/protocol/TCP_port_Scan/tcp_connect.c
+
+CMakeFiles/protocol.dir/TCP_port_Scan/tcp_connect.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/TCP_port_Scan/tcp_connect.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/TCP_port_Scan/tcp_connect.c > CMakeFiles/protocol.dir/TCP_port_Scan/tcp_connect.c.i
+
+CMakeFiles/protocol.dir/TCP_port_Scan/tcp_connect.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/TCP_port_Scan/tcp_connect.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/TCP_port_Scan/tcp_connect.c -o CMakeFiles/protocol.dir/TCP_port_Scan/tcp_connect.c.s
+
+CMakeFiles/protocol.dir/TCP_port_Scan/tcp_port_scan.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/TCP_port_Scan/tcp_port_scan.c.o: ../TCP_port_Scan/tcp_port_scan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/protocol.dir/TCP_port_Scan/tcp_port_scan.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/TCP_port_Scan/tcp_port_scan.c.o -c /Users/sijescomputer/CLionProjects/protocol/TCP_port_Scan/tcp_port_scan.c
+
+CMakeFiles/protocol.dir/TCP_port_Scan/tcp_port_scan.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/TCP_port_Scan/tcp_port_scan.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/TCP_port_Scan/tcp_port_scan.c > CMakeFiles/protocol.dir/TCP_port_Scan/tcp_port_scan.c.i
+
+CMakeFiles/protocol.dir/TCP_port_Scan/tcp_port_scan.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/TCP_port_Scan/tcp_port_scan.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/TCP_port_Scan/tcp_port_scan.c -o CMakeFiles/protocol.dir/TCP_port_Scan/tcp_port_scan.c.s
+
+CMakeFiles/protocol.dir/TCP_Half-Open_Port_Scan/tcp_half_open_port_scan.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/TCP_Half-Open_Port_Scan/tcp_half_open_port_scan.c.o: ../TCP_Half-Open_Port_Scan/tcp_half_open_port_scan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/protocol.dir/TCP_Half-Open_Port_Scan/tcp_half_open_port_scan.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/TCP_Half-Open_Port_Scan/tcp_half_open_port_scan.c.o -c /Users/sijescomputer/CLionProjects/protocol/TCP_Half-Open_Port_Scan/tcp_half_open_port_scan.c
+
+CMakeFiles/protocol.dir/TCP_Half-Open_Port_Scan/tcp_half_open_port_scan.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/TCP_Half-Open_Port_Scan/tcp_half_open_port_scan.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/TCP_Half-Open_Port_Scan/tcp_half_open_port_scan.c > CMakeFiles/protocol.dir/TCP_Half-Open_Port_Scan/tcp_half_open_port_scan.c.i
+
+CMakeFiles/protocol.dir/TCP_Half-Open_Port_Scan/tcp_half_open_port_scan.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/TCP_Half-Open_Port_Scan/tcp_half_open_port_scan.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/TCP_Half-Open_Port_Scan/tcp_half_open_port_scan.c -o CMakeFiles/protocol.dir/TCP_Half-Open_Port_Scan/tcp_half_open_port_scan.c.s
+
+CMakeFiles/protocol.dir/RawSocket/tcp_half_open_port_scan_raw.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/RawSocket/tcp_half_open_port_scan_raw.c.o: ../RawSocket/tcp_half_open_port_scan_raw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/protocol.dir/RawSocket/tcp_half_open_port_scan_raw.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/RawSocket/tcp_half_open_port_scan_raw.c.o -c /Users/sijescomputer/CLionProjects/protocol/RawSocket/tcp_half_open_port_scan_raw.c
+
+CMakeFiles/protocol.dir/RawSocket/tcp_half_open_port_scan_raw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/RawSocket/tcp_half_open_port_scan_raw.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/RawSocket/tcp_half_open_port_scan_raw.c > CMakeFiles/protocol.dir/RawSocket/tcp_half_open_port_scan_raw.c.i
+
+CMakeFiles/protocol.dir/RawSocket/tcp_half_open_port_scan_raw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/RawSocket/tcp_half_open_port_scan_raw.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/RawSocket/tcp_half_open_port_scan_raw.c -o CMakeFiles/protocol.dir/RawSocket/tcp_half_open_port_scan_raw.c.s
+
+CMakeFiles/protocol.dir/TCPLIB/tcplib.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/TCPLIB/tcplib.c.o: ../TCPLIB/tcplib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/protocol.dir/TCPLIB/tcplib.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/TCPLIB/tcplib.c.o -c /Users/sijescomputer/CLionProjects/protocol/TCPLIB/tcplib.c
+
+CMakeFiles/protocol.dir/TCPLIB/tcplib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/TCPLIB/tcplib.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/TCPLIB/tcplib.c > CMakeFiles/protocol.dir/TCPLIB/tcplib.c.i
+
+CMakeFiles/protocol.dir/TCPLIB/tcplib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/TCPLIB/tcplib.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/TCPLIB/tcplib.c -o CMakeFiles/protocol.dir/TCPLIB/tcplib.c.s
+
+CMakeFiles/protocol.dir/TCPLIB/tcplibTest.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/TCPLIB/tcplibTest.c.o: ../TCPLIB/tcplibTest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/protocol.dir/TCPLIB/tcplibTest.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/TCPLIB/tcplibTest.c.o -c /Users/sijescomputer/CLionProjects/protocol/TCPLIB/tcplibTest.c
+
+CMakeFiles/protocol.dir/TCPLIB/tcplibTest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/TCPLIB/tcplibTest.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/TCPLIB/tcplibTest.c > CMakeFiles/protocol.dir/TCPLIB/tcplibTest.c.i
+
+CMakeFiles/protocol.dir/TCPLIB/tcplibTest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/TCPLIB/tcplibTest.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/TCPLIB/tcplibTest.c -o CMakeFiles/protocol.dir/TCPLIB/tcplibTest.c.s
+
+CMakeFiles/protocol.dir/RawSocket/synflooding_raw.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/RawSocket/synflooding_raw.c.o: ../RawSocket/synflooding_raw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/protocol.dir/RawSocket/synflooding_raw.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/RawSocket/synflooding_raw.c.o -c /Users/sijescomputer/CLionProjects/protocol/RawSocket/synflooding_raw.c
+
+CMakeFiles/protocol.dir/RawSocket/synflooding_raw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/RawSocket/synflooding_raw.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/RawSocket/synflooding_raw.c > CMakeFiles/protocol.dir/RawSocket/synflooding_raw.c.i
+
+CMakeFiles/protocol.dir/RawSocket/synflooding_raw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/RawSocket/synflooding_raw.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/RawSocket/synflooding_raw.c -o CMakeFiles/protocol.dir/RawSocket/synflooding_raw.c.s
+
+CMakeFiles/protocol.dir/SynFloodingAttack/synfloodingAttack.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/SynFloodingAttack/synfloodingAttack.c.o: ../SynFloodingAttack/synfloodingAttack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/protocol.dir/SynFloodingAttack/synfloodingAttack.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/SynFloodingAttack/synfloodingAttack.c.o -c /Users/sijescomputer/CLionProjects/protocol/SynFloodingAttack/synfloodingAttack.c
+
+CMakeFiles/protocol.dir/SynFloodingAttack/synfloodingAttack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/SynFloodingAttack/synfloodingAttack.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/SynFloodingAttack/synfloodingAttack.c > CMakeFiles/protocol.dir/SynFloodingAttack/synfloodingAttack.c.i
+
+CMakeFiles/protocol.dir/SynFloodingAttack/synfloodingAttack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/SynFloodingAttack/synfloodingAttack.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/SynFloodingAttack/synfloodingAttack.c -o CMakeFiles/protocol.dir/SynFloodingAttack/synfloodingAttack.c.s
+
+CMakeFiles/protocol.dir/RawSocket/TCP_Packet_Monitering_raw.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/RawSocket/TCP_Packet_Monitering_raw.c.o: ../RawSocket/TCP_Packet_Monitering_raw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/protocol.dir/RawSocket/TCP_Packet_Monitering_raw.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/RawSocket/TCP_Packet_Monitering_raw.c.o -c /Users/sijescomputer/CLionProjects/protocol/RawSocket/TCP_Packet_Monitering_raw.c
+
+CMakeFiles/protocol.dir/RawSocket/TCP_Packet_Monitering_raw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/RawSocket/TCP_Packet_Monitering_raw.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/RawSocket/TCP_Packet_Monitering_raw.c > CMakeFiles/protocol.dir/RawSocket/TCP_Packet_Monitering_raw.c.i
+
+CMakeFiles/protocol.dir/RawSocket/TCP_Packet_Monitering_raw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/RawSocket/TCP_Packet_Monitering_raw.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/RawSocket/TCP_Packet_Monitering_raw.c -o CMakeFiles/protocol.dir/RawSocket/TCP_Packet_Monitering_raw.c.s
+
+CMakeFiles/protocol.dir/RawSocket/TCP_Session_Hijacking_raw.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/RawSocket/TCP_Session_Hijacking_raw.c.o: ../RawSocket/TCP_Session_Hijacking_raw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/protocol.dir/RawSocket/TCP_Session_Hijacking_raw.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/RawSocket/TCP_Session_Hijacking_raw.c.o -c /Users/sijescomputer/CLionProjects/protocol/RawSocket/TCP_Session_Hijacking_raw.c
+
+CMakeFiles/protocol.dir/RawSocket/TCP_Session_Hijacking_raw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/RawSocket/TCP_Session_Hijacking_raw.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/RawSocket/TCP_Session_Hijacking_raw.c > CMakeFiles/protocol.dir/RawSocket/TCP_Session_Hijacking_raw.c.i
+
+CMakeFiles/protocol.dir/RawSocket/TCP_Session_Hijacking_raw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/RawSocket/TCP_Session_Hijacking_raw.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/RawSocket/TCP_Session_Hijacking_raw.c -o CMakeFiles/protocol.dir/RawSocket/TCP_Session_Hijacking_raw.c.s
+
+CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Packet_Monitering.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Packet_Monitering.c.o: ../TCP_Session_Hijacking/TCP_Packet_Monitering.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Packet_Monitering.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Packet_Monitering.c.o -c /Users/sijescomputer/CLionProjects/protocol/TCP_Session_Hijacking/TCP_Packet_Monitering.c
+
+CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Packet_Monitering.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Packet_Monitering.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/TCP_Session_Hijacking/TCP_Packet_Monitering.c > CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Packet_Monitering.c.i
+
+CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Packet_Monitering.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Packet_Monitering.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/TCP_Session_Hijacking/TCP_Packet_Monitering.c -o CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Packet_Monitering.c.s
+
+CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Session_Hijacking.c.o: CMakeFiles/protocol.dir/flags.make
+CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Session_Hijacking.c.o: ../TCP_Session_Hijacking/TCP_Session_Hijacking.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Session_Hijacking.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Session_Hijacking.c.o -c /Users/sijescomputer/CLionProjects/protocol/TCP_Session_Hijacking/TCP_Session_Hijacking.c
+
+CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Session_Hijacking.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Session_Hijacking.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sijescomputer/CLionProjects/protocol/TCP_Session_Hijacking/TCP_Session_Hijacking.c > CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Session_Hijacking.c.i
+
+CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Session_Hijacking.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Session_Hijacking.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sijescomputer/CLionProjects/protocol/TCP_Session_Hijacking/TCP_Session_Hijacking.c -o CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Session_Hijacking.c.s
 
 # Object files for target protocol
 protocol_OBJECTS = \
@@ -201,9 +539,35 @@ protocol_OBJECTS = \
 "CMakeFiles/protocol.dir/TCP/tcp.c.o" \
 "CMakeFiles/protocol.dir/UDP/udp.c.o" \
 "CMakeFiles/protocol.dir/ICMP/icmp.c.o" \
-"CMakeFiles/protocol.dir/sniffing.c.o" \
+"CMakeFiles/protocol.dir/ARPspoof+sniff/sniffing.c.o" \
 "CMakeFiles/protocol.dir/ARPLIB/arplib.c.o" \
-"CMakeFiles/protocol.dir/arplibTest.c.o"
+"CMakeFiles/protocol.dir/ARPLIB/arplibTest.c.o" \
+"CMakeFiles/protocol.dir/RawSocket/arpspoof_rawSocket.c.o" \
+"CMakeFiles/protocol.dir/ARPspoof+sniff/arpspoof.c.o" \
+"CMakeFiles/protocol.dir/IPaddressToDecimal/changeIPAddress.c.o" \
+"CMakeFiles/protocol.dir/RawSocket/Arp_network_scan.c.o" \
+"CMakeFiles/protocol.dir/NetworkScan/arp_network_scan.c.o" \
+"CMakeFiles/protocol.dir/ICMPLIB/icmplib.c.o" \
+"CMakeFiles/protocol.dir/checkSum.c.o" \
+"CMakeFiles/protocol.dir/ICMPLIB/icmplibTest.c.o" \
+"CMakeFiles/protocol.dir/Ping/ping.c.o" \
+"CMakeFiles/protocol.dir/RawSocket/ping_raw.c.o" \
+"CMakeFiles/protocol.dir/NetworkScan/icmp_network_scan.c.o" \
+"CMakeFiles/protocol.dir/RawSocket/icmp_network_scan_raw.c.o" \
+"CMakeFiles/protocol.dir/RawSocket/traceRoutingRoute_ICMP.c.o" \
+"CMakeFiles/protocol.dir/TraceRoutingRoute/traceRoutingRoute_ICMP.c.o" \
+"CMakeFiles/protocol.dir/TCP_port_Scan/tcp_connect.c.o" \
+"CMakeFiles/protocol.dir/TCP_port_Scan/tcp_port_scan.c.o" \
+"CMakeFiles/protocol.dir/TCP_Half-Open_Port_Scan/tcp_half_open_port_scan.c.o" \
+"CMakeFiles/protocol.dir/RawSocket/tcp_half_open_port_scan_raw.c.o" \
+"CMakeFiles/protocol.dir/TCPLIB/tcplib.c.o" \
+"CMakeFiles/protocol.dir/TCPLIB/tcplibTest.c.o" \
+"CMakeFiles/protocol.dir/RawSocket/synflooding_raw.c.o" \
+"CMakeFiles/protocol.dir/SynFloodingAttack/synfloodingAttack.c.o" \
+"CMakeFiles/protocol.dir/RawSocket/TCP_Packet_Monitering_raw.c.o" \
+"CMakeFiles/protocol.dir/RawSocket/TCP_Session_Hijacking_raw.c.o" \
+"CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Packet_Monitering.c.o" \
+"CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Session_Hijacking.c.o"
 
 # External object files for target protocol
 protocol_EXTERNAL_OBJECTS =
@@ -214,12 +578,38 @@ libprotocol.a: CMakeFiles/protocol.dir/IP/ip.c.o
 libprotocol.a: CMakeFiles/protocol.dir/TCP/tcp.c.o
 libprotocol.a: CMakeFiles/protocol.dir/UDP/udp.c.o
 libprotocol.a: CMakeFiles/protocol.dir/ICMP/icmp.c.o
-libprotocol.a: CMakeFiles/protocol.dir/sniffing.c.o
+libprotocol.a: CMakeFiles/protocol.dir/ARPspoof+sniff/sniffing.c.o
 libprotocol.a: CMakeFiles/protocol.dir/ARPLIB/arplib.c.o
-libprotocol.a: CMakeFiles/protocol.dir/arplibTest.c.o
+libprotocol.a: CMakeFiles/protocol.dir/ARPLIB/arplibTest.c.o
+libprotocol.a: CMakeFiles/protocol.dir/RawSocket/arpspoof_rawSocket.c.o
+libprotocol.a: CMakeFiles/protocol.dir/ARPspoof+sniff/arpspoof.c.o
+libprotocol.a: CMakeFiles/protocol.dir/IPaddressToDecimal/changeIPAddress.c.o
+libprotocol.a: CMakeFiles/protocol.dir/RawSocket/Arp_network_scan.c.o
+libprotocol.a: CMakeFiles/protocol.dir/NetworkScan/arp_network_scan.c.o
+libprotocol.a: CMakeFiles/protocol.dir/ICMPLIB/icmplib.c.o
+libprotocol.a: CMakeFiles/protocol.dir/checkSum.c.o
+libprotocol.a: CMakeFiles/protocol.dir/ICMPLIB/icmplibTest.c.o
+libprotocol.a: CMakeFiles/protocol.dir/Ping/ping.c.o
+libprotocol.a: CMakeFiles/protocol.dir/RawSocket/ping_raw.c.o
+libprotocol.a: CMakeFiles/protocol.dir/NetworkScan/icmp_network_scan.c.o
+libprotocol.a: CMakeFiles/protocol.dir/RawSocket/icmp_network_scan_raw.c.o
+libprotocol.a: CMakeFiles/protocol.dir/RawSocket/traceRoutingRoute_ICMP.c.o
+libprotocol.a: CMakeFiles/protocol.dir/TraceRoutingRoute/traceRoutingRoute_ICMP.c.o
+libprotocol.a: CMakeFiles/protocol.dir/TCP_port_Scan/tcp_connect.c.o
+libprotocol.a: CMakeFiles/protocol.dir/TCP_port_Scan/tcp_port_scan.c.o
+libprotocol.a: CMakeFiles/protocol.dir/TCP_Half-Open_Port_Scan/tcp_half_open_port_scan.c.o
+libprotocol.a: CMakeFiles/protocol.dir/RawSocket/tcp_half_open_port_scan_raw.c.o
+libprotocol.a: CMakeFiles/protocol.dir/TCPLIB/tcplib.c.o
+libprotocol.a: CMakeFiles/protocol.dir/TCPLIB/tcplibTest.c.o
+libprotocol.a: CMakeFiles/protocol.dir/RawSocket/synflooding_raw.c.o
+libprotocol.a: CMakeFiles/protocol.dir/SynFloodingAttack/synfloodingAttack.c.o
+libprotocol.a: CMakeFiles/protocol.dir/RawSocket/TCP_Packet_Monitering_raw.c.o
+libprotocol.a: CMakeFiles/protocol.dir/RawSocket/TCP_Session_Hijacking_raw.c.o
+libprotocol.a: CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Packet_Monitering.c.o
+libprotocol.a: CMakeFiles/protocol.dir/TCP_Session_Hijacking/TCP_Session_Hijacking.c.o
 libprotocol.a: CMakeFiles/protocol.dir/build.make
 libprotocol.a: CMakeFiles/protocol.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C static library libprotocol.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sijescomputer/CLionProjects/protocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking C static library libprotocol.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/protocol.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/protocol.dir/link.txt --verbose=$(VERBOSE)
 

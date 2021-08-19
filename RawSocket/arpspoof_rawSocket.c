@@ -73,7 +73,7 @@ int main(int argc,char **argv) {
     );
     //looping
     while (1) {
-        if (sendto(sock, &arp_packet, sizeof(arp_packet), 0, //sendto target address that " I am my Ip is ~~ MAC address is ~~" 
+        if (sendto(sock, &arp_packet, sizeof(arp_packet), 0, //sendto target address that " I am my Ip is ~~ MAC address is ~~"
                    (struct sockaddr *) &sll, sizeof(sll)) < 0) {
             perror("sendto ");
             break;

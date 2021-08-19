@@ -6,7 +6,7 @@
 #define ETHERTYPE_IP 0x0800 //IP
 #define ETHERTYPE_ARP 0x0806 //Address resolution protocol
 
-#define ARPOP_REQUIEST 1 //ARP request
+#define ARPOP_REQUEST 1 //ARP request
 #define ARPOP_REPLY 2 //ARP reply
 
 #ifndef __linux__
